@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Form, FormGroup, FormItem, Input, CheckBox, InputType, Select, Option, FlexBox, text } from "@ui5/webcomponents-react";
+import React from 'react';
+import { Form, FormGroup, FormItem, Input, InputType, Select, Option} from "@ui5/webcomponents-react";
 
 const TestComponent = () => {
     return (
