@@ -1,0 +1,12 @@
+applications:
+- name: test-for-ui5
+  instance: 1
+  memory: 128M
+  path: build/
+  buildpacks:
+    - staticfile_buildpack
+  timeout: 120
+  routes:
+    - route: test-for-ui5.((LANDSCAPE-DOMAIN))
+  
+  
